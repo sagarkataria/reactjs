@@ -42,9 +42,43 @@
     margin: 3px;;
 }
 .filter{
+    display: flex;
     margin: 20px;
 }
 .filter .filter-btn{
+    cursor: pointer;
+    height: 30px;
+    margin-left: 20px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    /* align-items: center; Vertical centering */
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+.shimmer-container .shimmer-card .image{
+    /* justify-content: center; */
+    margin: 10px;
+    width: 19000px;
+    height: 200px;
+    background-color: #C0C0C0;
+}
+.login{
+    margin: 0 25px;
+    height: 20px;
+    cursor: pointer;
+}
+.search-box{
+    height: 25px;
+}
+.search-btn{
     cursor: pointer;
     height: 30px;
 }
