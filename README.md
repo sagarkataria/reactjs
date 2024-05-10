@@ -18,3 +18,27 @@
 - Error Handling = Provides a way to handle errors gracefully
 - HTTPs
 - Tree Shaknig = Removes unused imports/code from final bundle
+
+# Food Odering App
+
+- Header
+- Logo
+- Nav Item
+- Body
+- Search
+- RestaurantContainer
+-     - RestaurantCard
+
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
+
+# React Hooks
+
+(Normal javascript function)
+
+- ex.
+  useState()
+  useEffect()
