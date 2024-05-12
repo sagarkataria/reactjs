@@ -82,3 +82,8 @@
     cursor: pointer;
     height: 30px;
 }
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
